@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/*CSS reset*/
+body{color:#000;background:#FFF;font-size:14px;font-family:"微软雅黑","宋体";line-height:22px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,textarea,p,blockquote,th,td,form{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;vertical-align: middle;}
+address,caption,th{font-style:normal;font-weight:normal;}
+em,strong{color:#f00;font-style:normal;}
+ol,ul{list-style:none;}caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+em{font-weight:bold}
+a{text-decoration:none;}
+
+body{background:#333}
+.mainWrap{margin:20px auto;position:relative;width:96%;min-height:724px;overflow-y:visible}
+.sidebar{width:354px;position:absolute;top:0;left:40%;}
+.sidebar .left{float:left;}
+.sidebar .right{float:right;}
+
+.btnblk{width:176px;height:176px;overflow:hidden;cursor:pointer;margin-bottom:2px;position:relative}
+.btnblk.s1 .metroSplit-main,.btnblk.s1 a{background:#27ae60}
+.btnblk.s2 .metroSplit-main,.btnblk.s2 a{background:#c05b95}
+.btnblk.s3 .metroSplit-main,.btnblk.s3 a{background:#00b4d8}
+.btnblk.s4 .metroSplit-main,.btnblk.s4 a{background:#a557e6}
+.btnblk.s5 .metroSplit-main,.btnblk.s5 a{background:#2c89ee}
+.btnblk.s6 .metroSplit-main,.btnblk.s6 a{background:#e58e05}
+.btnblk.s7 .metroSplit-main,.btnblk.s7 a{background:#e74c3c}
+.btnblk.s8 .metroSplit-main,.btnblk.s8 a{background:#5294bd}
+
+.metroSplit-main{position:absolute;top:0;left:0;width:176px;height:176px;text-align:center;z-index:9}
+.metroSplit-main img{padding-top:25px;}
+.metroSplit-main h4{font-size:18px;color:#FFF;text-align:center}
+
+.metroSplit-sub{position:absolute;top:0;left:0;z-index:1;width:100%;height:100%;opacity:1;background:transparent}
+.metroSplit-sub ul{height:100%;width:100%;display:block;}
+.metroSplit-sub li{float:left;display:block;width:100%;height:100%;background:transparent;position:relative;}
+.metroSplit-sub a{position:absolute;top:0;bottom:0;left:0;right:0;color:#FFF;font-size:16px;display:block;text-align:center;}
+.metroSplit-sub a:hover{opacity:0.7;color:#333}
+
+
+
+
+
+
+
+
