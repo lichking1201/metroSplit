@@ -1,9 +1,9 @@
-metroSplit
-==========
+#metroSplit
 
 metroSplit是一个磁贴分裂的效果，为大色块UI菜单增加子菜单维度的解决方案。[Demo](lichking1201.github.io/demo/metroSplit)
 
-DOM
+##DOM
+
 	<div class="selector">
 		<div class="metroSplit-main">
 			... main-menu's code...
@@ -17,10 +17,12 @@ DOM
 		</div>
 	</div>
 		
-Usage:
+##Usage:
+
 	$(".selector").metroSplit(options)
 
-options:
+##options:
+
 	dx : 2,  			//分裂切片左右间距，个别浏览器不支持小数像素，尽量使用偶数
 	dy : 2,				//分裂切片上下间距，个别浏览器不支持小数像素，尽量使用偶数
 	rank : 3,			//分裂切片为rank行
